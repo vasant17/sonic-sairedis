@@ -6819,6 +6819,7 @@ sai_status_t meta_sai_flush_fdb_entries(
             meta_sai_on_fdb_flush_event_consolidated(data);
         }
     }
+
     return status;
 }
 
