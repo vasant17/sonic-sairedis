@@ -2090,6 +2090,7 @@ void sai_deserialize_qos_map_params(
     params.prio           = j["prio"];
     params.pg             = j["pg"];
     params.queue_index    = j["qidx"];
+    params.mpls_exp       = j["mpls_exp"];
 
     sai_deserialize_packet_color(j["color"], params.color);
 }
